@@ -305,8 +305,8 @@
     const encoded = encodeURIComponent(body);
     const isAndroid = /android/i.test(navigator.userAgent);
     const smsHref = isAndroid
-      ? 'sms:4012472040?body=' + encoded
-      : 'sms:4012472040&body=' + encoded;
+      ? 'sms:4012418226?body=' + encoded
+      : 'sms:4012418226&body=' + encoded;
 
     const a = document.createElement('a');
     a.href = smsHref;
