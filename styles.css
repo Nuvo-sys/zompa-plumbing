@@ -211,6 +211,7 @@ ul { list-style: none; }
   font-weight: 600;
   color: var(--text-muted);
   transition: color 0.2s;
+  margin-left: 24px;
 }
 .nav-phone:hover { color: var(--blue); }
 .nav-cta {
