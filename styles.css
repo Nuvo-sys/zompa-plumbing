@@ -293,7 +293,7 @@ ul { list-style: none; }
 .nav-mobile-phone {
   display: none;
   position: absolute;
-  left: 50%;
+  left: 58%;
   transform: translateX(-50%);
   font-size: 0.875rem;
   font-weight: 700;
