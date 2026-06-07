@@ -5,13 +5,15 @@
 // === IAB DETECTION ===
 (function () {
   const ua = navigator.userAgent;
-  const isIAB = /Instagram|FBAN|FBAV|Twitter|TikTok|LinkedIn|Snapchat|Line\/|MicroMessenger/i.test(ua);
+  const isIAB = /Instagram|FBAN|FBAV|FB_IAB|TikTok|musical_ly|BytedanceWebview|Snapchat|Twitter|Pinterest|LinkedInApp/i.test(ua);
   const banner = document.getElementById('iab-banner');
   const closeBtn = document.getElementById('iab-banner-close');
   if (isIAB && banner) {
-    banner.style.display = 'block';
+    try { if (sessionStorage.getItem('iab-banner-dismissed')) return; } catch (e) {}
+    banner.style.display = 'flex';
     closeBtn.addEventListener('click', function () {
       banner.style.display = 'none';
+      try { sessionStorage.setItem('iab-banner-dismissed', '1'); } catch (e) {}
     });
   }
 })();
