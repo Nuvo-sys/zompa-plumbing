@@ -29,7 +29,7 @@
   --border: #e0eaf5;
   --border-dark: #c7d8ed;
 
-  --nav-height: 88px;
+  --nav-height: 72px;
   --radius: 10px;
   --radius-lg: 16px;
   --shadow-sm: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
@@ -181,7 +181,7 @@ ul { list-style: none; }
   align-items: center;
 }
 .nav-logo img {
-  height: 76px;
+  height: 62px;
   width: auto;
   display: block;
 }
@@ -1165,7 +1165,7 @@ ul { list-style: none; }
   .hamburger { display: flex; }
   .nav-mobile-phone { display: block; }
   .nav-inner { grid-template-columns: auto 1fr auto; }
-  .nav-logo img { height: 64px; }
+  .nav-logo img { height: 52px; }
   .services-grid { grid-template-columns: 1fr; }
   .gallery-grid { grid-template-columns: repeat(2, 1fr); }
   .area-grid { grid-template-columns: 1fr; }
