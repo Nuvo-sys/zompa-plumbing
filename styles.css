@@ -83,7 +83,7 @@ ul { list-style: none; }
 }
 
 /* === UTILITY === */
-.section { padding: 112px 0; }
+.section { padding: 128px 0; }
 .section-blue { background: var(--bg-section); }
 .container { max-width: 1180px; margin: 0 auto; padding: 0 48px; }
 .section-label {
@@ -1160,9 +1160,9 @@ ul { list-style: none; }
 
 @media (max-width: 768px) {
   :root { --nav-height: 64px; }
-  .container { padding: 0 24px; }
-  .nav-inner { padding: 0 24px; }
-  .section { padding: 80px 0; }
+  .container { padding: 0 28px; }
+  .nav-inner { padding: 0 28px; }
+  .section { padding: 96px 0; }
   .nav-links { display: none; }
   .nav-cta { display: none; }
   .hamburger { display: flex; }
@@ -1183,8 +1183,8 @@ ul { list-style: none; }
 }
 
 @media (max-width: 480px) {
-  .container { padding: 0 16px; }
-  .nav-inner { padding: 0 16px; }
+  .container { padding: 0 20px; }
+  .nav-inner { padding: 0 20px; }
   .gallery-grid { grid-template-columns: 1fr 1fr; gap: 8px; }
   .trust-bar-inner { grid-template-columns: 1fr 1fr; }
   .trust-item {
